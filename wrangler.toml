@@ -1,2 +1,9 @@
-# wrangler.toml
-name = 'url-pinger'
+name = "url-pinger"
+main = "pinger.js"
+compatibility_date = "2023-12-01"
+
+workers_dev = true
+preview_urls = false
+
+[triggers]
+crons = ["*/5 * * * *"]
