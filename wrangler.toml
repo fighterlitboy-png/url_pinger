@@ -1,8 +1,12 @@
-name = "shribots"
+name = "ping"
 main = "pinger.js"
 compatibility_date = "2023-12-01"
 
 [triggers]
-crons = ["* * * * *"] 
+crons = ["*/5 * * * *"]
 
-[env.production.vars]
+# ✅ workers.dev ကို ဖွင့်
+workers_dev = true
+
+# ✅ Preview URLs ကို ပိတ်
+preview_urls = false
