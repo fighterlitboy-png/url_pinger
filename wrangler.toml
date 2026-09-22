@@ -1,11 +1,2 @@
 # wrangler.toml
-name = "url-pinger"
-main = "pinger.js"
-compatibility_date = "2023-12-01"
-
-[triggers]
-crons = ["*/5 * * * *"]
-
-# ✅ ဒါတွေက [triggers] ရဲ့ အပြင်မှာ ထား
-workers_dev = true
-preview_urls = false
+name = 'url-pinger'
