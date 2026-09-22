@@ -1,12 +1,9 @@
-name = "ping"
+name = "url-pinger"
 main = "pinger.js"
 compatibility_date = "2023-12-01"
 
 [triggers]
 crons = ["*/5 * * * *"]
 
-# ✅ workers.dev ကို ဖွင့်
 workers_dev = true
-
-# ✅ Preview URLs ကို ပိတ်
 preview_urls = false
