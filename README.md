@@ -33,8 +33,4 @@ Set your URLs using numbered environment variables:
 - Cloudflare account
 - GitHub repository (for one-click deployment)
 
-## Monitoring
-Check ping results in Cloudflare Workers dashboard under "Workers" > "Your Worker" > "Logs"
-credit: Kustbots 
-
-Elevenyts ❤️ 
+ 
